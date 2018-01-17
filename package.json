@@ -1,0 +1,13 @@
+{
+  "name": "gloo2",
+  "version": "0.0.1",
+  "description": "WebGL helpers for bokehjs.",
+  "keywords": [],
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bokeh/gloo2.git"
+  },
+  "main": "gloo2.js",
+  "types": "gloo2.d.ts"
+}
