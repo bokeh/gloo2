@@ -45,11 +45,11 @@ export declare class Texture2D extends GlooObject {
   deactivate(): void
   set_wrapping(wrap_s: GLEnum /*Wrap*/, wrap_t: GLEnum /*Wrap*/): void
   set_interpolation(min: GLEnum /*MinInterp*/, max: GLEnum /*MaxInterp*/): void
-  set_size(shape: [number, number], format: GLEnum /*TextureFormat*/): void
-  set_data(offset: [number, number], shape: [number, number], data: any /* XXX: byte typed array */): void
+  set_size(shape: any /*[number, number] */, format: GLEnum /*TextureFormat*/): void
+  set_data(offset: any /*[number, number] */, shape: any /*[number, number] */, data: any /* XXX: byte typed array */): void
 }
 
 export declare class Texture3DLike extends Texture2D {
-  set_size(shape: [number, number, number], format: GLEnum /*TextureFormat*/): void
-  set_data(offset: [number, number, number], shape: [number, number, number], data: any /* XXX: byte typed array */): void
+  set_size(shape: any /*[number, number, number] */, format: GLEnum /*TextureFormat*/): void
+  set_data(offset: any /*[number, number, number] */, shape: any /*[number, number, number] */, data: any /* XXX: byte typed array */): void
 }
