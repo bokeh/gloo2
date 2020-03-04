@@ -1,5 +1,5 @@
 {
-  "name": "gloo2",
+  "name": "@bokeh/gloo2",
   "version": "0.0.1",
   "description": "WebGL helpers for bokehjs.",
   "keywords": [],
